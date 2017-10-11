@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   for (i = 0; i < acc.length; i++) {
       acc[i].onclick = function(){
-          console.log(this);
           let panel = this.nextElementSibling;
           if (panel.style.display === "block") {
               panel.style.display = "none";
